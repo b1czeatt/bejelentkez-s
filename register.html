@@ -11,7 +11,7 @@
 <body>
     <div class="container">
         <h2>Create an Account</h2>
-        <form id="registrationForm">
+        <form id="registerForm">
             <div class="form-group">
                 <label for="username">Username:</label>
                 <input type="text" id="username" name="username" required>
@@ -28,6 +28,7 @@
                 <label for="confirmPassword">Confirm Password:</label>
                 <input type="password" id="confirmPassword" name="confirmPassword" required>
             </div>
+            <span id="registerError" style="color:red"></span>
             <button type="submit">Register</button>
         </form>
         <p>Already have an account? <a href="login.html">Login here</a></p>
